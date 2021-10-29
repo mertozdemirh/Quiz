@@ -1,6 +1,8 @@
 const correctAnswers = ['B', 'A', 'A', 'A'];
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
+const submit = document.getElementById("gonder");
+submit.value = "Submit";
 
 form.addEventListener('submit', e => {
     e.preventDefault();
